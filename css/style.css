@@ -23,3 +23,71 @@ img.center {
   color: #709EC4;
 }
 
+.social  { position:fixed; top:10%; right:1%;}
+
+.social ul  { list-style-type: none; }
+
+.social ul li { margin-bottom: 9px }
+
+.social a:hover { opacity:0.6;filter:alpha(opacity=60); }
+ 
+.social a{ opacity:1;filter:alpha(opacity=100);}
+
+.forkme {
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: -75px;
+	background: #FAFAFA;
+
+	background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -o-linear-gradient(#FAFAFA,#EAEAEA);
+	background: -ms-linear-gradient(#FAFAFA,#EAEAEA);
+	background: linear-gradient(#FAFAFA,#EAEAEA);
+	color: black;
+	height: 44px;
+	width: 250px;
+	text-decoration: none;
+	text-align: center;
+	font-family: "Collegia";
+	font-size: 28px;
+	line-height: 32px;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border-bottom: 1px solid #CACACA;
+}
+
+.forkme span {
+	display: block;
+	text-transform: uppercase;
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 12px;
+}
+
+.forkme:hover {
+	color: #2C6EB4;
+}
+
+#latesttweet {  
+  list-style-type: none; 
+  font-family: 'Open Sans Condensed','Arial Narrow', serif;
+  font-size: 16px;
+  line-height: 40px;
+  color: #303030;
+  text-align:center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}  
+
+#footer p {
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+}
