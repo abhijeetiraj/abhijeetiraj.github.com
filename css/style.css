@@ -14,6 +14,16 @@ img.center {
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
 }
 
+.intro h3 {
+  font-family: 'Open Sans Condensed','Arial Narrow', serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #343434;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+
 .expertise {
   color: #008080;
 }
@@ -131,4 +141,30 @@ img.center {
   font-weight: 600;
   font-size: 12px;
   text-align: center;
+}
+
+.container .deck-container {
+  width: auto;
+  max-width: 800px;
+  min-height: 600px;
+  font-size: 16px;
+}
+.container .deck-container {
+  border: 1px solid #e4e4e4;
+}
+
+.container .deck-container {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media print {
+  header {
+    display: none !important;
+  }
+
+  .introduction .deck-container {
+    font-size: 1.25em;
+  }
 }
